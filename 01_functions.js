@@ -22,3 +22,19 @@ addTwoNumbers(2,4)
 const result = addTwoNumbers(2,6)
 
 console.log(result);
+
+
+function loggedInMessage( username = 'sam' ){
+
+    if ( !username ){
+        console.log('Please login with username');
+        return
+    }
+    return `${username} just logged in`
+}
+
+
+
+console.log(loggedInMessage());
+
+
