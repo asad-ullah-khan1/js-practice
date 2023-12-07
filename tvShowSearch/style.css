@@ -1,0 +1,10 @@
+body{
+    background:#212121;
+    color: #fff;
+}
+
+#ShowWrapper{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
